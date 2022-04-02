@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/notes
+Content-Type: application/json
+
+{
+  "description": "Esto es una nueva nota",
+  "important": true
+}
+
+####
+GET http://localhost:5000/api/notes
